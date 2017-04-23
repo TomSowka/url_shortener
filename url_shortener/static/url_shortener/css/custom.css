@@ -1,0 +1,43 @@
+*{
+    background-image: url(background.jpg);
+    background-position: left top;
+    background-repeat: repeat;
+}
+
+input[type="text"] {
+    color: #888;
+    width: 70%;
+    padding: 0px 0px 0px 5px;
+    border: 1px solid #C5E2FF;
+    border-radius: 5px;
+    background: #FBFBFB;
+    outline: 0;
+    -webkit-box-shadow:inset 0px 1px 6px #ECF3F5;
+    box-shadow: inset 0px 1px 6px #ECF3F5;
+    font: 200 12px/25px Arial, Helvetica, sans-serif;
+    height: 30px;
+    line-height:15px;
+    margin: 2px 6px 16px 0px;
+}
+
+input[type="text"] {
+    height: 30px;
+}
+
+p {
+        font: 20px Helvetica, sans-serif;
+}
+label {
+    display: block;
+    margin: 0px 0px 5px;
+    font: Lucida Console;
+}
+
+label>span {
+    float: left;
+    width: 20%;
+    text-align: right;
+    padding-right: 15px;
+    margin-top: 10px;
+    font-weight: bold;
+}
